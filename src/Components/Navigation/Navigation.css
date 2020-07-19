@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav {
+    background: rgb(0, 0, 0);
+    padding: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: .1rem .5rem;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration:none;
+
+}
+nav ul li.items{
+    position: relative;
+    width: auto;
+    margin: 1rem 16rem;
+    float: right;
+}
+
+nav ul li.items:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 9px;
+    color: rgb(187, 255, 0);
+    opacity: 0;
+    transform: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+    opacity:1;
+    bottom: 13px;
+}
+nav ul li.logo{
+    flex: 1;
+    color: white;
+    cursor: default;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 700;
+    user-select: none;
+}
+/* to place the logo at right and all other at left if it was left before */
+li:not(.logo ) {
+    float: right;
+}
+
+.items {
+    padding: 1rem;
+}
+/* .items:last-child{
+    padding-right: 3rem;
+} */
+.items:hover{
+    background-color: rgba(144, 168, 77, 0.425);
+    transition: ease-in;
+}
+.items:active {
+    background-color: violet;
+
+}
