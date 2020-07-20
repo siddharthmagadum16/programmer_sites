@@ -17,7 +17,7 @@ nav ul li {
     display: inline-flex;
     padding: .1rem .5rem;
 }
-nav ul li a {
+nav ul li p {
     color: #ffffff;
     text-decoration:none;
 
@@ -39,10 +39,12 @@ nav ul li.items:after{
     color: rgb(187, 255, 0);
     opacity: 0;
     transform: all 0.2s linear;
+    background-color: red;
 }
 nav ul li.items:hover:after{
     opacity:1;
     bottom: 13px;
+    background-color: indianred;
 }
 nav ul li.logo{
     flex: 1;
@@ -67,8 +69,9 @@ li:not(.logo ) {
 .items:hover{
     background-color: rgba(144, 168, 77, 0.425);
     transition: ease-in;
+    cursor: pointer;
 }
-.items:active {
+.items:active{
     background-color: violet;
 
 }

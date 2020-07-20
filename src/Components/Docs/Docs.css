@@ -1,0 +1,11 @@
+/* body {
+    background-size: full;
+} */
+.main2 {
+    margin: 0;
+    background-image: url('./docbgimg.jpg');
+    /* z-index: 1; */
+}
+p {
+    padding: 1rem 1rem 1rem;
+}

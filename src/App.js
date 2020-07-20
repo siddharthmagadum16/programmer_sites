@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Navigation from  './Components/Navigation/Navigation';
 import Home from './Components/Home/Home';
+import Docs from './Components/Docs/Docs';
 class App extends React.Component {
   constructor(){
     super();
@@ -15,17 +16,45 @@ class App extends React.Component {
   }
 
   render (){
-    return(
-      <div className="App style">
-        <div className="style">
-          <Navigation className="navigation"/>
-          if(this.state.currentpg=='home'){
-            <Home/>
-          }
+    console.log(this.state.currentpg)
+    if(this.state.currentpg==='home'){
+      return (
+        <div>
+        <Navigation onRouteChange={this.onRouteChange}/>
+          <Home/>
         </div>
-      </div>
-    )
+      )
+    }else if(this.state.currentpg==='docs') {
+      return (
+        <div>
+          <Navigation onRouteChange={this.onRouteChange}/>
+          <Docs/>
+        </div>
+      )
+    }else if(this.state.currentpg==='about'){
+      return (
+        <div>
+          <Navigation onRouteChange={this.onRouteChange}/>
+          <h1>about</h1>
+        </div>
+      )
+    }
+
   }
 }
 
 export default App;
+// return(
+    //   <div className="App style">
+
+    //       <Navigation className="navigation"/>
+    //       {
+    //         if(this.state.currentpg==='home'){<Home/>}
+    //         else {
+    //           <h2>h2</h2>
+
+    //         }
+
+    //       }
+      // </div>
+    // )

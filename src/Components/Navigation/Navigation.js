@@ -1,24 +1,21 @@
 import React from 'react';
 import './Navigation.css';
 import 'tachyons';
-const Navigation = ( onRouteChange) =>{
-    // const navfirstchild=document.getElementsByClassName('navigation')
-
+// import Home from '../Home/Home';
+const Navigation = ( {onRouteChange}) =>{
 
     return (
         <div>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <nav className="pa2">
-
                 <ul>
-                    <li className="logo image"><img className="img" src="./programmer_logo.png" width="100px" height="50px"/></li>
+                    <li className="logo image"><img className="img" src="./programmer_logo.png" alt="LogoImg" width="100px" height="50px"/></li>
                     <li className="logo">All-in-One </li>
-                    <li><a className="items" href="/" title="Documentation">About </a></li>
-                    <li><a className="items" href="/" title="Store">Documentation </a></li>
-                    <li><a className="items" href="/" title="Home">Home           </a></li>
+                    <li><p onClick={()=> onRouteChange('about')}            className="items about">About                         </p></li>
+                    <li><p onClick={()=> onRouteChange('docs')}             className="items docs ">Documentations                </p></li>
+                    <li><p onClick={()=> onRouteChange('home')}             className="items home ">Home                          </p></li>
                 </ul>
             </nav>
-            <image src="./programmer_logo.png" alt="img1" />
 
         </div>
     )
