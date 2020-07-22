@@ -1,0 +1,15 @@
+
+.main3 {
+    margin: 0;
+    background: url('https://images.wallpaperscraft.com/image/road_sunset_horizon_marking_118582_1600x1200.jpg') no-repeat ;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;
+    /* min-width: 100vh; */
+    /* width: 150rem; */
+}
+/* p {
+    padding: 1rem 1rem 1rem;
+} */

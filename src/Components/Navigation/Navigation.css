@@ -1,81 +1,109 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+nav{
+    /* position: fixed; */
+    background: #151515;
+    padding: 5px 40px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background: #33ffff;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+nav ul li p{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover p{
+  color: cyan;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+nav ul li.btn.hide i:before{
+  content: '\f00d';
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn{
+    display: block;
+  }
+  nav ul li.items:hover{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff,
+                inset 0 0 10px #66ffff;
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
 }
 
 nav {
-    background: rgb(0, 0, 0);
-    padding: auto;
+    position: static;
+    background-position-y: sticky;
 }
-
-nav ul li {
-    list-style: none;
-    display: inline-flex;
-    padding: .1rem .5rem;
-}
-nav ul li p {
-    color: #ffffff;
-    text-decoration:none;
-
-}
-nav ul li.items{
-    position: relative;
-    width: auto;
-    margin: 1rem 16rem;
-    float: right;
-}
-
-nav ul li.items:after{
-    position: absolute;
-    content: '';
-    height: 2px;
+.sticky {
+    position: fixed;  /* comment this whole block off if you aren't able ot scroll*/
     width: 100%;
-    left: 0;
-    bottom: 9px;
-    color: rgb(187, 255, 0);
-    opacity: 0;
-    transform: all 0.2s linear;
-    background-color: red;
+    top: 0;
 }
-nav ul li.items:hover:after{
-    opacity:1;
-    bottom: 13px;
-    background-color: indianred;
-}
-nav ul li.logo{
-    flex: 1;
-    color: white;
-    cursor: default;
-    font-style: italic;
-    font-size: 23px;
-    font-weight: 700;
-    user-select: none;
-}
-/* to place the logo at right and all other at left if it was left before */
-li:not(.logo ) {
-    float: right;
-}
-
-.items {
-    padding: 1rem;
-}
-/* .items:last-child{
-    padding-right: 3rem;
-} */
-.items:hover{
-    background-color: rgba(144, 168, 77, 0.425);
-    transition: ease-in;
-    cursor: pointer;
-}
-.items:active{
-    background-color: violet;
-
-}
-
-.items:first-child{
-    padding-right: 2rem;
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

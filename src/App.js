@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from  './Components/Navigation/Navigation';
 import Home from './Components/Home/Home';
 import Docs from './Components/Docs/Docs';
+import About from './Components/About/About';
 class App extends React.Component {
   constructor(){
     super();
@@ -35,7 +36,7 @@ class App extends React.Component {
       return (
         <div>
           <Navigation onRouteChange={this.onRouteChange}/>
-          <h1>about</h1>
+          <About/>
         </div>
       )
     }
