@@ -97,13 +97,14 @@ nav {
     position: static;
     background-position-y: sticky;
 }
-.sticky {
-    position: fixed;  /* comment this whole block off if you aren't able ot scroll*/
+/* comment this whole block off if you aren't able ot scroll*/
+/* .sticky {
+    position: fixed;
     width: 100%;
     top: 0;
-}
-div {
+} */
+/* div {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
