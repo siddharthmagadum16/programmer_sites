@@ -1,9 +1,12 @@
-/* body {
-    background-size: full;
-} */
+
 .main2 {
     margin: 0;
-    background-image: url('./docbgimg.jpg');
+    background: url('./docbgimg.jpg') no-repeat ;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;
     /* z-index: 1; */
 }
 p {

@@ -75,3 +75,7 @@ li:not(.logo ) {
     background-color: violet;
 
 }
+
+.items:first-child{
+    padding-right: 2rem;
+}

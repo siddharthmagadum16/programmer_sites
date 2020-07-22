@@ -1,17 +1,16 @@
 body, html {
     height: 100%;
     margin: 0;
-    /* background-image: url('./bgimage.jpg'); */
 }
 .main1 {
     margin: 0;
-    background-image: url('./bgimage.jpg');
-
-    height: 100%;
+    background: url('./bgimage.jpg') no-repeat ;
+    width: auto;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;  /* vh- viewport height-> this makes the bg img to cover full height not only till the container*/
 }
-p {
+/* p {
     padding: 1rem 1rem 1rem;
-}
+} */
