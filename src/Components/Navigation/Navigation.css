@@ -93,16 +93,18 @@ nav ul li.btn.hide i:before{
   }
 }
 
+/* this is working!fine\/ */
 nav {
-    position: static;
-    background-position-y: sticky;
+    /* position: fixed; */
+    /* background-position-y: sticky; */
+    z-index: 1;
 }
 /* comment this whole block off if you aren't able ot scroll*/
-/* .sticky {
+.sticky {
     position: fixed;
     width: 100%;
     top: 0;
-} */
+}
 /* div {
     display: flex;
     align-items: center;

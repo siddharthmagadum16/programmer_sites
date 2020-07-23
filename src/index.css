@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: aquamarine; */
-  /* background-image: url('./bgimage.jpg'); */
-  /* z-index: ; */
+  border-color: rgb(4, 47, 33);
 }
 
 code {

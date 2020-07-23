@@ -1,16 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@500&family=Raleway&display=swap');
 body, html {
     height: 100%;
     margin: 0;
 }
 .main1 {
     margin: 0;
-    background: url('./bgimg.jpg') no-repeat ;
+
+    /* background: url('./bgimg.jpg') no-repeat ; */
+    background-color: rgba(235, 220, 8, 0.089);
     width: auto;
-    background-position: center;
-    background-size: cover;
+    background-position: cover;
+    background-size: fill;
     overflow: hidden;
     min-height: 100vh;  /* vh- viewport height-> this makes the bg img to cover full height not only till the container*/
+    padding-top: 10vh;
 }
-/* p {
-    padding: 1rem 1rem 1rem;
-} */
+.container {
+    display: block;
+    margin: 0rem;
+    padding: 1vh;
+    padding-top: 2vh;
+    background-color: rgba(12, 9, 27, 0.186);
+}
+
+.heading {
+    background: repeating-linear-gradient( rgba(255, 0, 0, 0.415),rgba(0, 0, 255, 0.435));
+    font-weight: 800;
+    font-size: 4vh;
+}
+
+.grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    background-color: rgba(246, 247, 240, 0.871);
+    font-size: 2ch;
+    margin: 0vh;
+    padding: 3vh;
+
+}
+.element{
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 6px 6px;
+    height: auto;
+    padding: 2px 2px;
+    margin: 1rem;
+
+
+}
+.element:hover {
+    box-shadow:rgba(22, 22, 22, 0.8) 0px 5px 15px, inset rgba(147, 243, 79, 0.45) 0px -10px 20px;
+}
+
+.homeimage{
+    position: relative;
+    color: black;
+    text-align: center;
+
+}
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Literata', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: rgb(250, 3, 85);
+    border-color: yellow;
+    /* border: 1rem solid yellow; */
+    outline: yellow;
+    line-height: 11vh;
+    font-weight: bold;
+}
+
+@media all and (max-width: 820px){
+    .intro{
+        font-size: 1rem;
+        line-height: 4vh;
+    }
+}

@@ -21,15 +21,15 @@ class App extends React.Component {
     if(this.state.currentpg==='home'){
       return (
         <div>
-        <Navigation onRouteChange={this.onRouteChange}/>
-          <Home/>
+            <Navigation onRouteChange={this.onRouteChange}/>
+            <Home/>
         </div>
       )
     }else if(this.state.currentpg==='docs') {
       return (
         <div>
-          <Navigation onRouteChange={this.onRouteChange}/>
-          <Docs/>
+            <Navigation onRouteChange={this.onRouteChange}/>
+            <Docs/>
         </div>
       )
     }else if(this.state.currentpg==='about'){
@@ -46,16 +46,3 @@ class App extends React.Component {
 
 export default App;
 // return(
-    //   <div className="App style">
-
-    //       <Navigation className="navigation"/>
-    //       {
-    //         if(this.state.currentpg==='home'){<Home/>}
-    //         else {
-    //           <h2>h2</h2>
-
-    //         }
-
-    //       }
-      // </div>
-    // )
