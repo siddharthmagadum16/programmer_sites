@@ -20,9 +20,22 @@ body, html {
     margin: 0rem;
     padding: 1vh;
     padding-top: 2vh;
-    background-color: rgba(12, 9, 27, 0.186);
+    background-color: rgba(48, 9, 245, 0.186);
 }
 
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Literata', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: rgb(253, 2, 157);
+    text-shadow: -.0001px -.0001px 0 #000, .0001px -.0001px 0 #000, -.0001px .1px 0 #000, .0001px .0001px 0 #000;
+    line-height: 11vh;
+    font-weight: bold;
+}
 .heading {
     background: repeating-linear-gradient( rgba(255, 0, 0, 0.415),rgba(0, 0, 255, 0.435));
     font-weight: 800;
@@ -31,10 +44,10 @@ body, html {
 
 .grid{
     display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
-    background-color: rgba(246, 247, 240, 0.871);
-    font-size: 2ch;
+    gap: 3vh;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    /* background-color: rgba(246, 247, 240, 0.871); */
+
     margin: 0vh;
     padding: 3vh;
 
@@ -44,39 +57,29 @@ body, html {
     cursor: pointer;
     border: 3px solid black;
     border-radius: 6px 6px;
-    height: auto;
-    padding: 2px 2px;
-    margin: 1rem;
+    padding: 0.5rem 2rem 2rem 2rem;
+    /* margin: 1rem; */
+    /* height: 30vh; */
 
 
 }
 .element:hover {
-    box-shadow:rgba(22, 22, 22, 0.8) 0px 5px 15px, inset rgba(147, 243, 79, 0.45) 0px -10px 20px;
+    box-shadow:rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(147, 243, 79, 0.45) 0px -10px 20px;
+    /* height: 31vh; */
+    transition: .5s;
+}
+.element:active{
+    height: 29vh;
 }
 
 .homeimage{
-    position: relative;
     color: black;
     text-align: center;
-
-}
-.intro{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'Literata', serif;
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
-    color: rgb(250, 3, 85);
-    border-color: yellow;
-    /* border: 1rem solid yellow; */
-    outline: yellow;
-    line-height: 11vh;
-    font-weight: bold;
 }
 
-@media all and (max-width: 820px){
+
+
+@media all and (max-width: 900px){
     .intro{
         font-size: 1rem;
         line-height: 4vh;
