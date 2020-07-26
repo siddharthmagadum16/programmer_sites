@@ -8,7 +8,7 @@ const Navigation = ( {onRouteChange}) =>{
         <div className=''>
             <nav className="sticky">
                 <ul>
-                    <li className="logo1 logo "><img className="img" src="./programmer_logo.png" alt="LogoImg" width="100px" height="50px"/><b className=''>Code-in-one</b></li>
+                    <li className="logo1 logo "><img className="navlogo mr3" src="./programmer_logo.png" alt="LogoImg" width="90vw" height="auto"/><b >Code-in-One</b></li>
                     <li className='items home ' onClick={()=> onRouteChange('home')} ><p>  Home           </p> </li>
                     <li className='items docs ' onClick={()=> onRouteChange('docs')} ><p>  Documentations </p> </li>
                     <li className='items about' onClick={()=> onRouteChange('about')}><p>  About          </p> </li>

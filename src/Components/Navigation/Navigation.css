@@ -43,13 +43,22 @@ nav ul li.items:hover:after{
   opacity: 1;
   bottom: 8px;
 }
-nav ul li.logo{
+nav ul li.logo{ /*_______*/
   flex: 1;
   color: white;
-  font-size: 23px;
+  font-size: 3vw;
   font-weight: 600;
   cursor: default;
   user-select: none;
+}
+nav ul li.logo b{
+  justify-content: center;
+  align-items: center;
+}
+nav ul li.logo b:hover{
+  /* text-shadow: 2px 2px 4px #04f704 ; */
+  text-shadow: 2px 2px 1px rgb(24, 29, 22), 5px 5px 6px rgb(227, 252, 3);
+  transition: .3s;
 }
 nav ul li p{
   color: white;
@@ -91,15 +100,14 @@ nav ul li.btn.hide i:before{
   nav ul li.items:hover:after{
     opacity: 0;
   }
-  nav ul li:first-child{
-
-  }
+  /* nav ul li.logo{
+  font-size-adjust: .5;
+  } */
+  /* to adjust font size of code-in-one. its looks too small in mobile viewport */
 }
 
 /* this is working!fine\/ */
 nav {
-    /* position: fixed; */
-    /* background-position-y: sticky; */
     z-index: 1;
 }
 /* comment this whole block off if you aren't able ot scroll*/
@@ -113,3 +121,12 @@ nav {
     align-items: center;
     justify-content: center;
 } */
+@media all and (max-width: 900px){
+  nav ul li.logo{
+    height: 0%;
+    font-size: 3vh;
+  }
+  .navlogo{
+    width:4rem;
+  }
+}
