@@ -106,12 +106,12 @@ const Home=()=>{
                 </div>
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">
-                    <div className='element'><span>🦁</span></div>
-                    <div className='element'><span>🦁</span></div>
-                    <div className='element'><span>🦁</span></div>
-                    <div className='element'><span>🦁</span></div>
-                    <div className='element'><span>🦁</span></div>
-                    <div className='element'><span>🦁</span></div>
+                    <div className='element'>NA</div>
+                    <div className='element'>NA</div>
+                    <div className='element'>NA</div>
+                    <div className='element'>NA</div>
+                    <div className='element'>NA</div>
+                    <div className='element'>NA</div>
                 </div>
             </div>
         </div>
