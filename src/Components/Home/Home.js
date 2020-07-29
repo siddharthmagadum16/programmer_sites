@@ -10,7 +10,7 @@ const Home=()=>{
             <div className='container'>
                 <p className='heading'>General</p>
                 <div className="grid ">
-                    <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer"><img style={{'background':'black', 'padding':'19px'}} src='http://market.designmodo.com/wp-content/uploads/2015/06/stack-overflow-logo.png' alt='stackoverflow'/>
+                    <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer"><img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://market.designmodo.com/wp-content/uploads/2015/06/stack-overflow-logo.png' alt='stackoverflow'/>
                         <p>Stackoverflow</p>
                         <p>Where developers learn, share their programming knowledge</p>
                     </a>
@@ -18,7 +18,7 @@ const Home=()=>{
                         <p>Github</p>
                         <p>Build software better, together</p>
                     </a>
-                    <a className='element' href='https://github.com/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black','blockSize':'10rem'}} src='https://i.ytimg.com/vi/NcMcIXJuVEk/hqdefault.jpg' alt='youtube'/>
+                    <a className='element' href='https://www.youtube.com/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black','height':'12rem','width':'15rem','padding':'1rem'}} src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png' alt='youtube'/>
                         <p>YouTube</p>
                         <p>An adavantage to learn effeciently for free</p>
                     </a>
@@ -53,24 +53,60 @@ const Home=()=>{
                         <p>Leetcode</p>
                         <p>Best platform to help you enhance your skills and prepare for technical interviews</p>
                     </a>
-                    <a className='element' href='https://www.topcoder.com/challenges' target="_blank" rel="noopener noreferrer"><img className='' src='http://tse2.mm.bing.net/th/id/OIP.QtoBdmeZ5bm-U4ukGG1ChwHaHa?pid=Api&rs=1' alt='topcoder' />
+                    <a className='element' href='https://www.topcoder.com/challenges' target="_blank" rel="noopener noreferrer"><img src='http://tse2.mm.bing.net/th/id/OIP.QtoBdmeZ5bm-U4ukGG1ChwHaHa?pid=Api&rs=1' alt='topcoder' />
                         <p>Topcoder</p>
                         <p>A platform for competetive programming for experts</p>
                     </a>
-                    <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img className='' src='http://301stockinvesting.com/wp-content/uploads/2018/06/filegoogle-g-logo-svg-wikimedia-commons-inside-google-g-icon-png.png' alt='google' />
+                    <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img  src='http://301stockinvesting.com/wp-content/uploads/2018/06/filegoogle-g-logo-svg-wikimedia-commons-inside-google-g-icon-png.png' alt='google' />
                         <p>Google Coding competetions</p>
                         <p>Coding competetions held by google for students all over the world</p>
                     </a>
                 </div>
                 <p className='heading'>Web Development</p>
-                <div className="grid ">
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
+                <div className="sub-heading">
+                    <p>HTML and CSS</p>
+                    <div className='grid'>
+                        <a className='element' href='https://www.w3schools.com/' target="_blank" rel="noopener noreferrer"><img  src='http://cdn.impressivewebs.com/2014-02/w3schools-logo.jpg' alt='w3schools' />
+                            <p>W3schools</p>
+                            <p> The world's largest web developer site</p>
+                        </a>
+                        <a className='element' href='https://developer.mozilla.org/en-US/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black'}} src='http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png' alt='mdn' />
+                            <p>MDN web docs</p>
+                            <p>Resources for developers, by developers</p>
+                        </a>
+                        <a className='element' href='https://css-tricks.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black','padding':'2rem'}} src='https://css-tricks.com/favicon.ico' alt='csstricks' />
+                            <p>CSS - Tricks</p>
+                            <p>Modern and advanced techniques for CSS form the developers</p>
+                        </a>
+                        <a className='element' href='https://caniuse.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem'}} src='https://caniuse.com/img/favicon-128.png' alt='caniuse' />
+                            <p>Can I use</p>
+                            <p>Browser support tables for modern web technologies</p>
+                        </a>
+                        <a className='element' href='https://getbootstrap.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black'}} src='https://sdtimes.com/wp-content/uploads/2018/01/bootstrap-stack.png' alt='bootstrap' />
+                            <p>Bootstrap</p>
+                            <p>The world’s most popular front-end open source toolkit</p>
+                        </a>
+                        <a className='element' href='https://animate.style/' target="_blank" rel="noopener noreferrer"><img style={{ 'background':'black','padding-bottom':'1rem'}} src='http://tecnologiaenvivo.com/wp-content/uploads/2013/12/logo_CSS3-1.png' alt='animate.css' />
+                            <p>Animate.css</p>
+                            <p>Just-add-water CSS animations</p>
+                        </a>
+                        <a className='element' href='https://www.npmjs.com/' target="_blank" rel="noopener noreferrer"><img src='https://www.w3schools.com/whatis/img_npm.jpg' alt='npm' />
+                            <p>NPM</p>
+                            <p>A package manager for the JavaScript programming language</p>
+                        </a>
+                        <a className='element' href='https://yarnpkg.com/' target="_blank" rel="noopener noreferrer"><img src='https://avatars1.githubusercontent.com/u/22247014?v=3&s=400' alt='yarn' />
+                            <p>Yarn</p>
+                            <p>A package manager that doubles down as project manager</p>
+                        </a>
+                            <div className='element'>o</div>
+                            <div className='element'>o</div>
+                    </div>
+                    <p>Javascript</p>
+                    <div className='grid'>
+                        <div className='element'>o</div>
+                        <div className='element'>o</div>
+                        <div className='element'>o</div>
+                    </div>
                 </div>
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">

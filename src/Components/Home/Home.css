@@ -19,7 +19,7 @@ body, html {
 .container {
     display: block;
     margin: 0rem;
-    padding: 0vh;
+    padding: 0;
     padding-top: 2vh;
     background-color: rgba(48, 9, 245, 0.186);
 }
@@ -41,31 +41,31 @@ body, html {
     /* font-weight: bold; */
 }
 .heading {
-    background: repeating-linear-gradient( rgba(255, 0, 0, 0.415),rgba(0, 0, 255, 0.435));
+    background: repeating-linear-gradient( rgba(255, 0, 0, 0.534),rgba(0, 0, 255, 0.637));
     font-weight: 800;
     font-size: 4vh;
 }
 
 .grid{
     display: grid;
-    gap: 3vh;
+    gap: 2vw;
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
     /* backround of a grid */
     background-color: rgba(92, 95, 76, 0.177);
     /* background: repeating-linear-gradient(45deg, #e3a0e9 10%, #ebf8e1 100%, #dc85e4 50%); */
-    background: left 5% / 15% 60% repeat-x url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg");
-    background: no-repeat url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg");
+    /* background: left 5% / 15% 60% repeat-x url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg"); */
+    /* background: no-repeat url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg"); */
     background: content-box radial-gradient(rgba(228, 97, 123, 0.664), rgba(213, 124, 240, 0.61));
-    margin: 0vh;
-    padding: 3vh;
-
+    /* margin: 1vh; */
+    /* padding: 2rem; */
 }
 .element{
     display: inline-block;
     cursor: pointer;
     border: 3px solid black;
     border-radius: 6px 6px;
-    padding: 0.5rem 2rem 2rem 2rem;
+    margin: .5rem;
+    padding: .5rem 1rem 1rem 1rem;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -90,6 +90,7 @@ img + p{
 img + p + p{
     font-weight: 300;
     font-size: 1.2rem;
+    padding: 0;
 
 }
 .element:hover {
