@@ -90,6 +90,10 @@ const Home=()=>{
                             <p>Animate.css</p>
                             <p>Just-add-water CSS animations</p>
                         </a>
+
+                    </div>
+                    <p>Javascript</p>
+                    <div className='grid'>
                         <a className='element' href='https://www.npmjs.com/' target="_blank" rel="noopener noreferrer"><img src='https://www.w3schools.com/whatis/img_npm.jpg' alt='npm' />
                             <p>NPM</p>
                             <p>A package manager for the JavaScript programming language</p>
@@ -98,24 +102,16 @@ const Home=()=>{
                             <p>Yarn</p>
                             <p>A package manager that doubles down as project manager</p>
                         </a>
-                            <div className='element'>o</div>
-                            <div className='element'>o</div>
-                    </div>
-                    <p>Javascript</p>
-                    <div className='grid'>
-                        <div className='element'>o</div>
-                        <div className='element'>o</div>
-                        <div className='element'>o</div>
                     </div>
                 </div>
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
-                    <div className='element'>o</div>
+                    <div className='element'>🦁</div>
+                    <div className='element'>🦁</div>
+                    <div className='element'>🦁</div>
+                    <div className='element'>🦁</div>
+                    <div className='element'>🦁</div>
+                    <div className='element'>🦁</div>
                 </div>
             </div>
         </div>
