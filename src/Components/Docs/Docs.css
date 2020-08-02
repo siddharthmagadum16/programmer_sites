@@ -5,10 +5,67 @@
     width: auto;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
     min-height: 100vh;
-    /* z-index: 1; */
+    padding-top: 10vh;
 }
-p {
-    padding: 1rem 1rem 1rem;
+
+.containerd{
+    margin-top:  6vw;
+    align-self: center;
+    border: .5vw solid rgba(165, 42, 42, 0.849);
+    border-radius: 1rem;
+    margin: 6vw 6vw 6vw ;  /*decide the width you want to keep */
+    padding: 1vw;
+    box-shadow:rgba(0, 0, 0, 0.8) -5px -5px 9px 5px, rgba(0, 0, 0, 0.8) 5px 5px 9px 5px, inset 10px 10px 20px rgba(165, 42, 42, 0.774), inset -10px -10px 20px rgba(165, 42, 42, 0.74);
+    /* box-shadow:rgba(0, 0, 0, 0.8) -5px -5px 9px 5px, inset rgba(249, 253, 4, 0.425) 0px -10px 30px -5px; */
+
+
+}
+.headingd{
+    /* filter: blur(1px); */
+    font-size: 4vh;
+    background-color: rgba(255, 255, 255, 0.856);
+    width: fit-content;
+
+}
+
+.gridd{
+    display: grid;
+    gap: 4vw;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    border: 2px solid white;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+.elementd {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    text-decoration: none;
+    background-color: rgba(222, 184, 135, 0.507);
+    padding: .5rem ;
+    color: black;
+}
+
+.elementd img{
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    /* height: 7rem; */
+
+}
+.elementd p{
+    margin-top: auto;
+    font-size: 1rem
+}
+
+
+@media all and (max-width: 960px){
+    .elementd img{
+        width: 10vw; /* erase this if it looks perfect in mobile */
+    }
 }

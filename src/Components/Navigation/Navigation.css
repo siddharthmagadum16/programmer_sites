@@ -9,6 +9,7 @@ nav{
     /* position: fixed; */
     background: #151515;
     padding: 1px 20px;
+    /* opacity: .8; */
 }
 nav ul{
   list-style: none;
