@@ -63,46 +63,39 @@ const Home=()=>{
                     </a>
                 </div>
                 <p className='heading'>Web Development</p>
-                <div className="sub-heading">
-                    <p>HTML and CSS</p>
-                    <div className='grid'>
-                        <a className='element' href='https://www.w3schools.com/' target="_blank" rel="noopener noreferrer"><img  src='http://cdn.impressivewebs.com/2014-02/w3schools-logo.jpg' alt='w3schools' />
-                            <p>W3schools</p>
-                            <p> The world's largest web developer site</p>
-                        </a>
-                        <a className='element' href='https://developer.mozilla.org/en-US/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black'}} src='http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png' alt='mdn' />
-                            <p>MDN web docs</p>
-                            <p>Resources for developers, by developers</p>
-                        </a>
-                        <a className='element' href='https://css-tricks.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black','padding':'2rem'}} src='https://css-tricks.com/favicon.ico' alt='csstricks' />
-                            <p>CSS - Tricks</p>
-                            <p>Modern and advanced techniques for CSS form the developers</p>
-                        </a>
-                        <a className='element' href='https://caniuse.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem'}} src='https://caniuse.com/img/favicon-128.png' alt='caniuse' />
-                            <p>Can I use</p>
-                            <p>Browser support tables for modern web technologies</p>
-                        </a>
-                        <a className='element' href='https://getbootstrap.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black'}} src='https://sdtimes.com/wp-content/uploads/2018/01/bootstrap-stack.png' alt='bootstrap' />
-                            <p>Bootstrap</p>
-                            <p>The world’s most popular front-end open source toolkit</p>
-                        </a>
-                        <a className='element' href='https://animate.style/' target="_blank" rel="noopener noreferrer"><img style={{ 'background':'black','padding-bottom':'1rem'}} src='http://tecnologiaenvivo.com/wp-content/uploads/2013/12/logo_CSS3-1.png' alt='animate.css' />
-                            <p>Animate.css</p>
-                            <p>Just-add-water CSS animations</p>
-                        </a>
-
-                    </div>
-                    <p>Javascript</p>
-                    <div className='grid'>
-                        <a className='element' href='https://www.npmjs.com/' target="_blank" rel="noopener noreferrer"><img src='https://www.w3schools.com/whatis/img_npm.jpg' alt='npm' />
-                            <p>NPM</p>
-                            <p>A package manager for the JavaScript programming language</p>
-                        </a>
-                        <a className='element' href='https://yarnpkg.com/' target="_blank" rel="noopener noreferrer"><img src='https://avatars1.githubusercontent.com/u/22247014?v=3&s=400' alt='yarn' />
-                            <p>Yarn</p>
-                            <p>A package manager that doubles down as project manager</p>
-                        </a>
-                    </div>
+                <div className='grid'>
+                    <a className='element' href='https://www.w3schools.com/' target="_blank" rel="noopener noreferrer"><img  src='http://cdn.impressivewebs.com/2014-02/w3schools-logo.jpg' alt='w3schools' />
+                        <p>W3schools</p>
+                        <p> The world's largest web developer site</p>
+                    </a>
+                    <a className='element' href='https://developer.mozilla.org/en-US/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black'}} src='http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png' alt='mdn' />
+                        <p>MDN web docs</p>
+                        <p>Resources for developers, by developers</p>
+                    </a>
+                    <a className='element' href='https://css-tricks.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black','padding':'2rem'}} src='https://css-tricks.com/favicon.ico' alt='csstricks' />
+                        <p>CSS - Tricks</p>
+                        <p>Modern and advanced techniques for CSS form the developers</p>
+                    </a>
+                    <a className='element' href='https://caniuse.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem'}} src='https://caniuse.com/img/favicon-128.png' alt='caniuse' />
+                        <p>Can I use</p>
+                        <p>Browser support tables for modern web technologies</p>
+                    </a>
+                    <a className='element' href='https://getbootstrap.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black'}} src='https://sdtimes.com/wp-content/uploads/2018/01/bootstrap-stack.png' alt='bootstrap' />
+                        <p>Bootstrap</p>
+                        <p>The world’s most popular front-end open source toolkit</p>
+                    </a>
+                    <a className='element' href='https://animate.style/' target="_blank" rel="noopener noreferrer"><img style={{ 'background':'black','padding-bottom':'1rem'}} src='http://tecnologiaenvivo.com/wp-content/uploads/2013/12/logo_CSS3-1.png' alt='animate.css' />
+                        <p>Animate.css</p>
+                        <p>Just-add-water CSS animations</p>
+                    </a>
+                    <a className='element' href='https://www.npmjs.com/' target="_blank" rel="noopener noreferrer"><img src='https://www.w3schools.com/whatis/img_npm.jpg' alt='npm' />
+                        <p>NPM</p>
+                        <p>A package manager for the JavaScript programming language</p>
+                    </a>
+                    <a className='element' href='https://yarnpkg.com/' target="_blank" rel="noopener noreferrer"><img src='https://avatars1.githubusercontent.com/u/22247014?v=3&s=400' alt='yarn' />
+                        <p>Yarn</p>
+                        <p>A package manager that doubles down as project manager</p>
+                    </a>
                 </div>
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">

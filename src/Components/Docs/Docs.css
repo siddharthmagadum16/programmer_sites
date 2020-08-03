@@ -27,7 +27,9 @@
     /* filter: blur(1px); */
     font-size: 4vh;
     background-color: rgba(255, 255, 255, 0.856);
+    box-shadow:rgba(255, 255, 255, 0.8) -.2px -.2px 9px 5px, rgba(247, 242, 242, 0.8) .2px .2px 9px 5px;
     width: fit-content;
+    margin: 1rem 1rem;
 
 }
 
@@ -54,12 +56,13 @@
 .elementd img{
     justify-content: center;
     align-self: center;
-    width: auto;
+
     /* height: 7rem; */
 
 }
 .elementd p{
     margin-top: auto;
+    padding-top: 7px;
     font-size: 1rem
 }
 

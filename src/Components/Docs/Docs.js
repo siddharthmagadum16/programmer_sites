@@ -38,6 +38,38 @@ const Docs=()=>{
                         <img  src='https://golang.org/lib/godoc/images/go-logo-blue.svg' alt='Go'/>
                         <p>Go</p>
                     </a>
+                    <a className='elementd' href='https://swift.org/documentation/#the-swift-programming-language' target="_blank" rel="noopener noreferrer">
+                        <img  src='http://img.deusm.com/informationweek/2015/09/1322066/Swift_logo.png' alt='Go'/>
+                        <p>Go</p>
+                    </a>
+                </div>
+                <p className='headingd'>Web Development</p>
+                <div className='gridd'>
+                    <a className='elementd' href='https://nodejs.org/en/docs/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://www.aca.am/assets/img/nodejs/node-js-icon.png' alt='nodejs'/>
+                        <p>Node.js</p>
+                    </a>
+                    <a className='elementd' href='https://deno.land/manual' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://miro.medium.com/max/2560/1*jPBtd4GQBjJ0KcyFyqcpBg.png' alt='deno'/>
+                        <p>Deno</p>
+                    </a>
+                    <a className='elementd' href='https://docs.djangoproject.com/en/3.0/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://nedbatchelder.com/pix/django-icon-256.png' alt='django'/>
+                        <p>Django</p>
+                    </a>
+                    <a className='elementd' href='https://reactjs.org/docs/getting-started.html' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png' alt='react'/>
+                        <p>React</p>
+                    </a>
+                    <a className='elementd' href='https://vuejs.org/v2/guide/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://vuejs.org/images/logo.png' alt='vuejs'/>
+                        <p>Vue.js</p>
+                    </a>
+                    <a className='elementd' href='https://angular.io/docs/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png' alt='angular'/>
+                        <p>Angular</p>
+                    </a>
+
                 </div>
             </div>
         </div>
