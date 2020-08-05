@@ -35,7 +35,7 @@ const Docs=()=>{
                         <p>R</p>
                     </a>
                     <a className='elementd' href='https://golang.org/doc/' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://golang.org/lib/godoc/images/go-logo-blue.svg' alt='Go'/>
+                        <img  src='https://golang.org/lib/godoc/images/go-logo-blue.svgz' alt='Go'/>
                         <p>Go</p>
                     </a>
                     <a className='elementd' href='https://swift.org/documentation/#the-swift-programming-language' target="_blank" rel="noopener noreferrer">
@@ -110,6 +110,7 @@ const Docs=()=>{
                         <img  src='https://emberjs.com/images/brand/ember_E-Icon-4c-Square.png' alt='ember'/>
                         <p>Ember.js</p>
                     </a>
+
                 </div>
                 <p className='headingd'>Databases</p>
                 <div className='gridd'>
@@ -146,7 +147,49 @@ const Docs=()=>{
                         <p>MariaDB</p>
                     </a>
                 </div>
-
+                <p className='headingd'>Mobile App Frameworks</p>
+                <div className='gridd'>
+                    <a className='elementd' href='https://reactnative.dev/docs/getting-started' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png' alt='ReactNative'/>
+                        <p>React Native</p>
+                    </a>
+                    <a className='elementd' href='https://flutter.dev/docs' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://digitalilusion.com/static/img/flutter-logo.png' alt='Flutter'/>
+                        <p>Flutter</p>
+                    </a>
+                    <a className='elementd' href='https://docs.microsoft.com/en-us/xamarin/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://www.appdynamics.com/media/uploaded-images/1498715803/.thumbnails/xamarin-logo-1000x0_q100.png' alt='Xamarin'/>
+                        <p>Xamarin</p>
+                    </a>
+                    <a className='elementd' href='https://ionicframework.com/docs' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://s3-us-west-2.amazonaws.com/ionicthemes/site_assets/img/logos/ionic-icon.png' alt='Iconic'/>
+                        <p>Iconic</p>
+                    </a>
+                    <a className='elementd' href='http://docs.phonegap.com/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://avatars3.githubusercontent.com/u/60365?s=200&v=4' alt='PhoneGap'/>
+                        <p>PhoneGap</p>
+                    </a>
+                    <a className='elementd' href='https://docs.coronalabs.com/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://coronalabs.com/wordpress/wp-content/uploads/2014/11/Corona-Icon.png' alt='Corona'/>
+                        <p>Corona</p>
+                    </a>
+                    <a className='elementd' href='https://api.jquerymobile.com/' target="_blank" rel="noopener noreferrer">
+                        <img  src='http://www.haydenkibble.com/wp-content/uploads/jquery-mobile-icon.jpg' alt='jQuerymobile'/>
+                        <p>jQuery mobile</p>
+                    </a>
+                    <a className='elementd' href='https://docs.nativescript.org/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/NativeScript_logo.png/220px-NativeScript_logo.png' alt='NativeScript'/>
+                        <p>NativeScript</p>
+                    </a>
+                    <a className='elementd' href='https://docs.appcelerator.com/platform/latest/#!/guide/Titanium_SDK_Getting_Started' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://jira.appcelerator.org/secure/thumbnail/23872/_thumb_23872.png' alt='Appcelerator'/>
+                        <p>Appcelerator Titanium</p>
+                    </a>
+                    <a className='elementd' href='http://mobileangularui.com/docs/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://binaryinformatics.com/wp-content/uploads/2018/12/Mobile-Angular-UI-logo.png' alt='mobileangularui'/>
+                        <p>Mobile Angular UI </p>
+                    </a>
+               </div>
 
             </div>
         </div>

@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(){
     super();
     this.state={
-      currentpg: 'home'
+      currentpg: 'docs'
     }
   }
   onRouteChange=(page)=>{

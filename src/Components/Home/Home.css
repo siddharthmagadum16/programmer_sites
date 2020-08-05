@@ -90,10 +90,11 @@ img + p{
 }
 img + p + p{
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0;
 
 }
+
 .element:hover {
     box-shadow:rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(249, 253, 4, 0.425) 0px -10px 30px -5px;
     color: rgb(235, 231, 29); /*255, 166, 0, 0.425*/

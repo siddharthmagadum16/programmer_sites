@@ -96,15 +96,30 @@ const Home=()=>{
                         <p>Yarn</p>
                         <p>A package manager that doubles down as project manager</p>
                     </a>
+                    <a className='element' href='https://devcenter.heroku.com/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://maxcdn.icons8.com/Color/PNG/512/Logos/heroku-512.png' alt='heroku'/>
+                        <p>Heroku</p>
+                        <p>Learn about building, deploying, and managing your apps on Heroku</p>
+                    </a>
+                    <a className='element' href='https://docs.netlify.com/' target="_blank" rel="noopener noreferrer">
+                        <img style={{ 'background':'black','padding':'2rem'}} src='https://www.netlify.com/img/press/logos/logomark.png' alt='netlify'/>
+                        <p>Netlify</p>
+                        <p>Netlify is an all-in-one platform for automating modern web projects</p>
+                    </a>
+                    <a className='element' href='https://wordpress.org/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://s.w.org/style/images/about/WordPress-logotype-wmark.png' alt='Wordpress'/>
+                        <p>Wordpress.org</p>
+                        <p>WordPress is open source software you can use to create a beautiful website, blog, or app</p>
+                    </a>
                 </div>
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">
-                    <div className='element'>NA</div>
-                    <div className='element'>NA</div>
-                    <div className='element'>NA</div>
-                    <div className='element'>NA</div>
-                    <div className='element'>NA</div>
-                    <div className='element'>NA</div>
+                <a className='element' href='https://developer.android.com/docs' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://yt3.ggpht.com/a/AATXAJwTpE9TzSl-1zmo9OeEkfjWmi3DVQ51IW2-ug=s900-c-k-c0xffffffff-no-rj-mo' alt='Wordpress'/>
+                        <p>Android Developers</p>
+                        <p>Build anything on Android</p>
+                    </a>
+
                 </div>
             </div>
         </div>
