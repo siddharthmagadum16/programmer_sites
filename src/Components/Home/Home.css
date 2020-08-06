@@ -89,6 +89,7 @@ img + p{
     font-size: 1.5rem;
 }
 img + p + p{
+    /* margin-bottom: auto; */
     font-weight: 300;
     font-size: 1rem;
     padding: 0;
@@ -116,5 +117,8 @@ img + p + p{
         top: 40vw;
         text-align: center;
         /* text-shadow: 2px 2px 1px rgb(24, 29, 22), 1px 1px 0px rgb(227, 252, 3); */
+    }
+    .element img{
+        width: 12rem;
     }
 }

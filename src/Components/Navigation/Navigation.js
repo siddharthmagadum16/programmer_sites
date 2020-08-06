@@ -12,7 +12,7 @@ const Navigation = ( {onRouteChange}) =>{
                     <li className='items home ' onClick={()=> onRouteChange('home')} ><p>  Home           </p> </li>
                     <li className='items docs ' onClick={()=> onRouteChange('docs')} ><p>  Documentations </p> </li>
                     <li className='items about' onClick={()=> onRouteChange('about')}><p>  About          </p> </li>
-                    <li className='btn'><p><i className='fas fa fa-bars'></i></p>4</li>
+                    <li className='btn'><p><i className='fas fa fa-bars'></i></p></li>
                 </ul>
             </nav>
         </div>

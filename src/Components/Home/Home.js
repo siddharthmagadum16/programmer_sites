@@ -18,9 +18,10 @@ const Home=()=>{
                         <p>Github</p>
                         <p>Build software better, together</p>
                     </a>
-                    <a className='element' href='https://www.youtube.com/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black','height':'12rem','width':'15rem','padding':'1rem'}} src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c545.png' alt='youtube'/>
+                    <a className='element' href='https://github.com/' target="_blank" rel="noopener noreferrer">
+                        <img style={{'background':'black'}} src='https://3.bp.blogspot.com/-NV9ceZus5dc/XHEdApWlqgI/AAAAAAAAC8U/OUSGPfQsQ7wUwPsRZvtyDlp2BbXmOhRqwCLcBGAs/s1600/hd-youtube-logo-png-transparent-background-20.png' alt='youtube'/>
                         <p>YouTube</p>
-                        <p>An adavantage to learn effeciently for free</p>
+                        <p>Learn effeciently</p>
                     </a>
                 </div>
                 <p className='heading'>Competetive Programming</p>
@@ -115,9 +116,24 @@ const Home=()=>{
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">
                 <a className='element' href='https://developer.android.com/docs' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://yt3.ggpht.com/a/AATXAJwTpE9TzSl-1zmo9OeEkfjWmi3DVQ51IW2-ug=s900-c-k-c0xffffffff-no-rj-mo' alt='Wordpress'/>
+                        <img  src='https://yt3.ggpht.com/a/AATXAJwTpE9TzSl-1zmo9OeEkfjWmi3DVQ51IW2-ug=s900-c-k-c0xffffffff-no-rj-mo' alt='Androiddev'/>
                         <p>Android Developers</p>
                         <p>Build anything on Android</p>
+                    </a>
+                    <a className='element' href='https://developer.apple.com/' target="_blank" rel="noopener noreferrer">
+                        <img style={{'background':'black'}} src='https://www.litmos.com/wp-content/uploads/2016/01/apple-icon.png' alt='appledev'/>
+                        <p>IOS</p>
+                        <p>Learn, Build, and Innovate</p>
+                    </a>
+                    <a className='element' href='https://unity.com/' target="_blank" rel="noopener noreferrer">
+                        <img  src='http://torrentfreak.com/images/unity-logo.jpg' alt='unity'/>
+                        <p>Unity</p>
+                        <p>Start bringing your vision to life today with the Unity real-time 3D development platform</p>
+                    </a>
+                    <a className='element' href='https://www.unrealengine.com/en-US/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://yt3.ggpht.com/-GvSh79CS6-k/AAAAAAAAAAI/AAAAAAAAAAA/tUYENAqlnYo/s900-c-k-no-mo-rj-c0xffffff/photo.jpg' alt='unity'/>
+                        <p>Unreal Engine</p>
+                        <p>Start bringing your vision to life today with the Unity real-time 3D development platform</p>
                     </a>
 
                 </div>

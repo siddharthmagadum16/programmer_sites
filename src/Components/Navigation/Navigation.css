@@ -118,11 +118,9 @@ nav {
     width: 100%;
     top: 0;
 }
-/* div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.logo{
+  align-content: center;
+}
 @media all and (max-width: 900px){
   nav ul li.logo{
     height: 0%;
