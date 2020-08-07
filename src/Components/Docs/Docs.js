@@ -46,6 +46,10 @@ const Docs=()=>{
                         <img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1200px-Kotlin-logo.svg.png' alt='Kotlin'/>
                         <p>Kotlin</p>
                     </a>
+                    <a className='elementd' href='https://dart.dev/guides' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dart-logo.png/768px-Dart-logo.png' alt='Dart'/>
+                        <p>Dart</p>
+                    </a>
                     <a className='elementd' href='https://www.typescriptlang.org/docs/home.html' target="_blank" rel="noopener noreferrer">
                         <img  src='https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png' alt='typescript'/>
                         <p>Typescript</p>

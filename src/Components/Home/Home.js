@@ -10,7 +10,8 @@ const Home=()=>{
             <div className='container'>
                 <p className='heading'>General</p>
                 <div className="grid ">
-                    <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer"><img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://market.designmodo.com/wp-content/uploads/2015/06/stack-overflow-logo.png' alt='stackoverflow'/>
+                    <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer">
+                        <img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
                         <p>Stackoverflow</p>
                         <p>Where developers learn, share their programming knowledge</p>
                     </a>
@@ -61,6 +62,11 @@ const Home=()=>{
                     <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img  src='http://301stockinvesting.com/wp-content/uploads/2018/06/filegoogle-g-logo-svg-wikimedia-commons-inside-google-g-icon-png.png' alt='google' />
                         <p>Google Coding competetions</p>
                         <p>Coding competetions held by google for students all over the world</p>
+                    </a>
+                    <a className='element' href='https://projecteuler.net/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://lh3.ggpht.com/-6dnnohel12U/TpNfySdnF1I/AAAAAAAAAB0/bW0vdjYz2Kg/s1600/Project+euler.jpg' alt='google' />
+                        <p>Project Euler</p>
+                        <p>Mathematics for competetive programming</p>
                     </a>
                 </div>
                 <p className='heading'>Web Development</p>
