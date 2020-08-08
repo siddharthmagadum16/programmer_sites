@@ -20,6 +20,11 @@ const Home=()=>{
                         <p>Github</p>
                         <p>Build software better, together</p>
                     </a>
+                    <a className='element' href='https://www.geeksforgeeks.org/' target="_blank" rel="noopener noreferrer">
+                        <img  src='https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png' alt='GFG'/>
+                        <p>GeeksforGeeks</p>
+                        <p>A computer science portal for geeks</p>
+                    </a>
                     <a className='element' href='https://youtube.com/' target="_blank" rel="noopener noreferrer">
                         <img style={{'background':'black'}} src='https://3.bp.blogspot.com/-NV9ceZus5dc/XHEdApWlqgI/AAAAAAAAC8U/OUSGPfQsQ7wUwPsRZvtyDlp2BbXmOhRqwCLcBGAs/s1600/hd-youtube-logo-png-transparent-background-20.png' alt='youtube'/>
                         <p>YouTube</p>
