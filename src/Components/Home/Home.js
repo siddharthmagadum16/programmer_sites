@@ -12,7 +12,7 @@ const Home=()=>{
                 <p className='heading'>General</p>
                 <div className="grid ">
                     <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer">
-                        <img style={{'filter':'brightness(50%)','background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
+                        <img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
                         <p>Stackoverflow</p>
                         <p>Where developers learn, share their programming knowledge</p>
                     </a>
