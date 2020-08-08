@@ -162,7 +162,7 @@ const Docs=()=>{
                         <p>Flutter</p>
                     </a>
                     <a className='elementd' href='https://docs.microsoft.com/en-us/xamarin/' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://www.appdynamics.com/media/uploaded-images/1498715803/.thumbnails/xamarin-logo-1000x0_q100.png' alt='Xamarin'/>
+                        <img  src='https://www.argeniss.com/images/logos/mobile/xamarin-icon.png' alt='Xamarin'/>
                         <p>Xamarin</p>
                     </a>
                     <a className='elementd' href='https://ionicframework.com/docs' target="_blank" rel="noopener noreferrer">
