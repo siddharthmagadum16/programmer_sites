@@ -35,11 +35,11 @@ const Docs=()=>{
                         <p>R</p>
                     </a>
                     <a className='elementd' href='https://golang.org/doc/' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://golang.org/lib/godoc/images/go-logo-blue.svgz' alt='Go'/>
+                        <img  src='https://golang.org/lib/godoc/images/go-logo-blue.svg' alt='Go'/>
                         <p>Go</p>
                     </a>
                     <a className='elementd' href='https://swift.org/documentation/#the-swift-programming-language' target="_blank" rel="noopener noreferrer">
-                        <img  src='http://img.deusm.com/informationweek/2015/09/1322066/Swift_logo.png' alt='Swift'/>
+                        <img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/853px-Swift_logo.svg.png' alt='Swift'/>
                         <p>Swift</p>
                     </a>
                     <a className='elementd' href='https://kotlinlang.org/docs/reference/' target="_blank" rel="noopener noreferrer">
@@ -98,7 +98,7 @@ const Docs=()=>{
                         <p>Angular</p>
                     </a>
                     <a className='elementd' href='https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://nextbigtechnology.com/wp-content/uploads/2018/12/asp-net-logo.png' alt='ASP.NET'/>
+                        <img  src='https://www.todobackend.com/images/logos/dotnet.png' alt='ASP.NET'/>
                         <p>ASP.NET</p>
                     </a>
                     <a className='elementd' href='https://flask.palletsprojects.com/en/1.1.x/#user-s-guide' target="_blank" rel="noopener noreferrer">
@@ -190,7 +190,7 @@ const Docs=()=>{
                         <p>Appcelerator Titanium</p>
                     </a>
                     <a className='elementd' href='http://mobileangularui.com/docs/' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://binaryinformatics.com/wp-content/uploads/2018/12/Mobile-Angular-UI-logo.png' alt='mobileangularui'/>
+                        <img  src='https://software.uconn.edu/wp-content/uploads/sites/1721/2017/11/mobile-angular-ui-logo.png' alt='mobileangularui'/>
                         <p>Mobile Angular UI </p>
                     </a>
                </div>

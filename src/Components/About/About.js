@@ -8,7 +8,7 @@ const About=()=>{
                 Are you tired of spending your time searching most used programming websites daily?
                 Then you are at the right place.<br/>
                 <img src='https://i.pinimg.com/736x/87/59/67/87596735373c5744ff98ea28c1caac36.jpg' alt='search'></img>
-                <br/> Code-in-One provides all the programming websites in a single click.
+                <br/> Code-in-One provides most of the programming websites in a single click.
                 Most used programming sites are listed in home page and the official documentation of frameworks and programming languages
                  can be found at the documentation part of the website.<br/>You could just bookmark or pin a single website to get all the websites readily accessible.
                 </p>
