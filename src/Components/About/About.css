@@ -31,14 +31,19 @@
 .containera p{
     justify-content: center;
     align-self: center;
+    font-size: 1.4rem;
 
 }
 .containera img{
     width: 21vw;
     margin-left: 33%;
-    /* margin-right: 50%; */
-    /* align-content: center; */
-    /* justify-self: center; */
+}
+.aboutend{
+    background-color: black;
+    padding: .4rem;
+}
+.aboutend a{
+    padding: 2rem 2rem;
 }
 
 @media all and (max-width: 960px){

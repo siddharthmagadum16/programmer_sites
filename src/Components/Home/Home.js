@@ -4,14 +4,15 @@ const Home=()=>{
     return (
         <div className="main1 ">
             <div className='homeimage'>
-            <img className='bigimg' src='https://www.achats-economiz.com/wp-content/uploads/2019/11/1920x1280-fourniture.jpg' alt='home intro img'  />
-            <p className=" intro">Don't waste your <b>TIME</b><br/> by searching the most used coding sites <b>Everytime</b></p>
+            <img className='bigimg' style={{'filter':'brightness(40%)'}}src='https://www.achats-economiz.com/wp-content/uploads/2019/11/1920x1280-fourniture.jpg' alt='home intro img'  />
+            {/* <p className=" intro">Don't waste your <b>TIME</b><br/> by searching the most used coding sites <b>Everytime</b></p> */}
+            <p className=" intro">All programming sites at one place</p>
             </div>
             <div className='container'>
                 <p className='heading'>General</p>
                 <div className="grid ">
                     <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer">
-                        <img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
+                        <img style={{'filter':'brightness(50%)','background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
                         <p>Stackoverflow</p>
                         <p>Where developers learn, share their programming knowledge</p>
                     </a>
@@ -19,7 +20,7 @@ const Home=()=>{
                         <p>Github</p>
                         <p>Build software better, together</p>
                     </a>
-                    <a className='element' href='https://github.com/' target="_blank" rel="noopener noreferrer">
+                    <a className='element' href='https://youtube.com/' target="_blank" rel="noopener noreferrer">
                         <img style={{'background':'black'}} src='https://3.bp.blogspot.com/-NV9ceZus5dc/XHEdApWlqgI/AAAAAAAAC8U/OUSGPfQsQ7wUwPsRZvtyDlp2BbXmOhRqwCLcBGAs/s1600/hd-youtube-logo-png-transparent-background-20.png' alt='youtube'/>
                         <p>YouTube</p>
                         <p>Learn effeciently</p>
@@ -61,7 +62,7 @@ const Home=()=>{
                     </a>
                     <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img  src='http://301stockinvesting.com/wp-content/uploads/2018/06/filegoogle-g-logo-svg-wikimedia-commons-inside-google-g-icon-png.png' alt='google' />
                         <p>Google Coding competetions</p>
-                        <p>Coding competetions held by google for students all over the world</p>
+                        <p>Coding competetions held by Google</p>
                     </a>
                     <a className='element' href='https://projecteuler.net/' target="_blank" rel="noopener noreferrer">
                         <img  src='https://lh3.ggpht.com/-6dnnohel12U/TpNfySdnF1I/AAAAAAAAAB0/bW0vdjYz2Kg/s1600/Project+euler.jpg' alt='google' />
