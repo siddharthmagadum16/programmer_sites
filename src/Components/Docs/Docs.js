@@ -1,5 +1,7 @@
 import React from 'react';
 import './Docs.css';
+import expresslogo from './expressjslogo.png';
+
 const Docs=()=>{
     return (
         <div className="main2 ">
@@ -107,7 +109,7 @@ const Docs=()=>{
                     </a>
 
                     <a className='elementd' href='https://expressjs.com/en/guide/routing.html' target="_blank" rel="noopener noreferrer">
-                        <img  src='http://alexgordienko.com/images/expressjslogo.png' alt='express'/>
+                        <img  src={expresslogo} alt='express'/>
                         <p>Express.js</p>
                     </a>
                     <a className='elementd' href='http://guides.emberjs.com/release/' target="_blank" rel="noopener noreferrer">

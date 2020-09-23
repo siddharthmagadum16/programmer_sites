@@ -1,5 +1,11 @@
 import React from 'react';
 import './Home.css';
+import stackoverflow from './stackoverflowlogo.png';
+import googlelogo from './google-logo.png';
+import mdnweb from './mdnweb.png';
+import w3c from './w3schoolslogo.jpg';
+import csstricks from './csstricks.ico';
+
 const Home=()=>{
     return (
         <div className="main1 ">
@@ -12,7 +18,7 @@ const Home=()=>{
                 <p className='heading'>General</p>
                 <div className="grid ">
                     <a className='element' href='https://stackoverflow.com/questions' target="_blank" rel="noopener noreferrer">
-                        <img style={{'background':'black','height':'13rem', 'padding':'19px'}} src='http://www.travishohl.com/images/stackoverflow-logo.png' alt='stackoverflow'/>
+                        <img style={{'background':'black','height':'13rem', 'padding':'19px'}} src={stackoverflow} alt='stackoverflow'/>
                         <p>Stackoverflow</p>
                         <p>Where developers learn, share their programming knowledge</p>
                     </a>
@@ -65,7 +71,7 @@ const Home=()=>{
                         <p>Topcoder</p>
                         <p>A platform for competetive programming for experts</p>
                     </a>
-                    <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img  src='http://301stockinvesting.com/wp-content/uploads/2018/06/filegoogle-g-logo-svg-wikimedia-commons-inside-google-g-icon-png.png' alt='google' />
+                    <a className='element' href='https://codingcompetitions.withgoogle.com/' target="_blank" rel="noopener noreferrer"><img  src={googlelogo} style={{'background':'black','padding':'8px'}} alt='google' />
                         <p>Google Coding competetions</p>
                         <p>Coding competetions held by Google</p>
                     </a>
@@ -77,15 +83,15 @@ const Home=()=>{
                 </div>
                 <p className='heading'>Web Development</p>
                 <div className='grid'>
-                    <a className='element' href='https://www.w3schools.com/' target="_blank" rel="noopener noreferrer"><img  src='http://cdn.impressivewebs.com/2014-02/w3schools-logo.jpg' alt='w3schools' />
+                    <a className='element' href='https://www.w3schools.com/' target="_blank" rel="noopener noreferrer"><img  src={w3c} alt='w3schools' />
                         <p>W3schools</p>
                         <p> The world's largest web developer site</p>
                     </a>
-                    <a className='element' href='https://developer.mozilla.org/en-US/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black'}} src='http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png' alt='mdn' />
+                    <a className='element' href='https://developer.mozilla.org/en-US/' target="_blank" rel="noopener noreferrer"><img style={{'background':'black'}} src={mdnweb} alt='mdn' />
                         <p>MDN web docs</p>
                         <p>Resources for developers, by developers</p>
                     </a>
-                    <a className='element' href='https://css-tricks.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black','padding':'2rem'}} src='https://css-tricks.com/favicon.ico' alt='csstricks' />
+                    <a className='element' href='https://css-tricks.com/' target="_blank" rel="noopener noreferrer"><img style={{ 'height':'12rem','background':'black','padding':'2rem'}} src={csstricks} alt='csstricks' />
                         <p>CSS - Tricks</p>
                         <p>Modern and advanced techniques for CSS form the developers</p>
                     </a>
