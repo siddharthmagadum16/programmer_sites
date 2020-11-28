@@ -5,6 +5,7 @@ import googlelogo from './google-logo.png';
 import mdnweb from './mdnweb.png';
 import w3c from './w3schoolslogo.jpg';
 import csstricks from './csstricks.ico';
+import android from './android.png';
 
 const Home=()=>{
     return (
@@ -134,7 +135,7 @@ const Home=()=>{
                 <p className='heading'>Android/IOS App development</p>
                 <div className="grid ">
                 <a className='element' href='https://developer.android.com/docs' target="_blank" rel="noopener noreferrer">
-                        <img  src='https://yt3.ggpht.com/a/AATXAJwTpE9TzSl-1zmo9OeEkfjWmi3DVQ51IW2-ug=s900-c-k-c0xffffffff-no-rj-mo' alt='Androiddev'/>
+                        <img  src={android} alt='Androiddev'/>
                         <p>Android Developers</p>
                         <p>Build anything on Android</p>
                     </a>
