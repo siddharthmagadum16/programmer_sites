@@ -11,7 +11,7 @@ const Home=()=>{
     return (
         <div className="main1 ">
             <div className='homeimage'>
-            <img className='bigimg' style={{'filter':'brightness(40%)'}}src='https://www.achats-economiz.com/wp-content/uploads/2019/11/1920x1280-fourniture.jpg' alt='home intro img'  />
+            <img className='bigimg' style={{'filter':'brightness(40%)'}}src='https://images.pexels.com/photos/247791/pexels-photo-247791.png?cs=srgb&dl=pexels-pixabay-247791.jpg&fm=jpg' alt='home intro img'  />
             {/* <p className=" intro">Don't waste your <b>TIME</b><br/> by searching the most used coding sites <b>Everytime</b></p> */}
             <p className=" intro">All programming sites at one place</p>
             </div>
